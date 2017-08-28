@@ -4,6 +4,9 @@ A PyroCMS 3 extension for the Addons Module which provides composer commands acr
 ## Installation
 `composer require fryiee/addon_composer-extension`
 
+If you are installing this on an existing project, then you will also want to run:
+`php artisan addon:install fryiee.extension.addon_composer`
+
 ## Usage
 `php artisan addon:composer <command> --args=<arg1> --flags=<flag1> --excludes=<namespace.type.slug>`
 
