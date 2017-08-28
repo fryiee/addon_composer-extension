@@ -2,6 +2,7 @@
     "name": "fryiee/addon_composer-extension",
     "type": "streams-addon",
     "description": "An extension for the addons module to add composer commands that can be run on all addons.",
+    "version": "1.0.0",
     "keywords": [
         "streams extension",
         "streams addon",
