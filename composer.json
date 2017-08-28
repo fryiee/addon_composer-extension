@@ -1,0 +1,26 @@
+{
+    "name": "fryiee/addon_composer-extension",
+    "type": "streams-addon",
+    "description": "An extension for the addons module to add composer commands that can be run on all addons.",
+    "keywords": [
+        "streams extension",
+        "streams addon",
+        "extension"
+    ],
+    "homepage": "http://github.com/fryiee/addon_composer-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Berry",
+            "email": "hi@craigberry.co"
+        }
+    ],
+    "support": {
+        "email": "hi@craigberry.co"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fryiee\\AddonComposerExtension\\": "src/"
+        }
+    }
+}
